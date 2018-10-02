@@ -66,7 +66,7 @@ class BusinessesViewController: UIViewController,UITableViewDataSource, UITableV
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         let DetailBusinessVC = segue.destination as! DetailBusinessesViewController
-        let RestaurantTitle = self.businesses.
+        
     }
     /*
      // MARK: - Navigation

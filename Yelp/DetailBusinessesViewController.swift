@@ -11,8 +11,9 @@ import MapKit
 
 class DetailBusinessesViewController: UIViewController {
 
+    @IBOutlet weak var DescriptionText: UITextView!
     @IBOutlet weak var MapView: MKMapView!
-    @IBOutlet weak var RestaurantLabel: UILabel!
+    
     @IBOutlet weak var RestaurantImageView: UIImageView!
     @IBOutlet weak var RestaurantTitle: UINavigationItem!
     override func viewDidLoad() {
